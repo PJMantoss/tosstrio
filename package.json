@@ -1,7 +1,7 @@
 {
   "name": "tritoss",
   "version": "1.0.0",
-  "description": "",
+  "description": "tritoss app",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
@@ -20,7 +20,7 @@
     "url": "git+https://github.com/PJMantoss/tritoss.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mantoss",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/PJMantoss/tritoss/issues"
