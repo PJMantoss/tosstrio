@@ -18,8 +18,10 @@
 
 .sidebar {
     background: var(--color-grey-dark-1);
+    flex: 0 0 15%;
 }
 
 .hotel-view {
-    background: #fff;
+    background: orange;//#fff
+    flex: 1;
 }
