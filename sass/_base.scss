@@ -1,4 +1,4 @@
-/* COLORS */
+/* COLORS & FONTS*/
 :root {
     --color-primary: #eb2f64;
     --color-primary-light: #FF3366;
@@ -11,6 +11,7 @@
     --color-grey-dark-2: #777;
     --color-grey-dark-3: #999;
     --font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+    --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
 }
 
 * {
