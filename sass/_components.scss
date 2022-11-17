@@ -1,6 +1,6 @@
 // LOGO
 .logo{
-    height: 2.5rem;
+    height: 2rem;
 }
 
 // Search 
@@ -9,8 +9,29 @@
 
     &__button {}
 
-    &__icon {}
+    &__icon {
+        height: 1.2rem;
+        width: 1.2rem;
+    }
 }
 
 // Navigation
-.user-nav {}
+.user-nav {
+    &__icon-box {}
+
+    &__icon {
+        height: 1.45rem;
+        width: 1.45rem;
+    }
+
+    &__notification {}
+
+    &__user {}
+
+    &__user-photo {
+        height: 2.5rem;
+        border-radius: 50%;
+    }
+
+    &__username {}
+}
