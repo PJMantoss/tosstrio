@@ -13,12 +13,14 @@
     <body>
         <div class="container">
             <header class="header">
-                <img src="./img/logo.png" alt="tritoss logo" class="logo">
+                <img src="img/logo.png" alt="tritoss logo" class="logo">
 
                 <form action="#" class="search">
                     <input type="text" class="search__input" placeholder="Search hotels">
                     <button type="submit" class="search__button">
-                        Search
+                        <svg class="search__icon">
+                            <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                        </svg>
                     </button>
                 </form>
             </header>
