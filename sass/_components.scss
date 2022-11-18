@@ -7,7 +7,7 @@
 // Search 
 .search{
     background-color: orangered;
-    flex: 0 0 28%;
+    flex: 0 0 25%;
 
     display: flex;
     justify-content: center;
@@ -30,6 +30,10 @@
             width: 100%;
             background-color: var(--color-grey-light-3);
         }
+    }
+
+    &__input:focus + &__button {
+        background-color: var(--color-grey-light-3);
     }
 
     &__button {
