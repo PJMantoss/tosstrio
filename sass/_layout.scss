@@ -1,5 +1,5 @@
 .container {
-    max-width: 60rem;
+    max-width: 70rem;
     margin: 4rem auto;
     background: var(--color-grey-light-1);
     box-shadow: var(--shadow-dark);
@@ -7,10 +7,12 @@
 }
 
 .header {
-    height: 3.5rem;
+    height: 7rem;
     background: #fff;
     border-bottom: var(--color-grey-light-2);
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content {
