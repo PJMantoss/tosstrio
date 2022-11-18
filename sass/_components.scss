@@ -8,11 +8,14 @@
 .search{
     background-color: orangered;
     flex: 0 0 40%;
-    
+
     &__input {
         font-family: inherit;
         font-size: inherit;
+        background-color: var(--color-grey-light-2);
         color: inherit;
+        border: 0;
+        padding: .5rem 2rem;
     }
 
     &__button {}
