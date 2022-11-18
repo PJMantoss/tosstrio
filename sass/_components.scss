@@ -19,6 +19,7 @@
         border-radius: 6rem;
         width: 90%;
         transition: all .2s;
+        margin-right: -1.5rem;
 
         &:focus {
             outline: none;
@@ -27,7 +28,14 @@
         }
     }
 
-    &__button {}
+    &__button {
+        border: 0;
+        background-color: var(--color-grey-light-2);
+
+        &:focus{
+            outline: none;
+        }
+    }
 
     &__icon {
         height: 1.2rem;
