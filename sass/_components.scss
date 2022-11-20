@@ -78,7 +78,10 @@
         background-color: var(--color-grey-light-2);
     }
 
-    &__icon-box {}
+    &__icon-box {
+        display: flex;
+        align-items: center;
+    }
 
     &__icon {
         height: 1.45rem;
