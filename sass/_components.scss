@@ -63,7 +63,9 @@
 // User Navigation
 .user-nav {
     background: greenyellow;
-    
+
+    display: flex;
+
     &__icon-box {}
 
     &__icon {
