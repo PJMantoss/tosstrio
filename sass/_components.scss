@@ -63,6 +63,7 @@
 // User Navigation
 .user-nav {
     background: greenyellow;
+    align-self: stretch;
 
     display: flex;
     align-items: center;
@@ -70,6 +71,10 @@
     & > * {
         padding: 0 1rem;
         cursor: pointer;
+    }
+
+    & > *:hover{
+        background-color: var(--color-grey-light-2);
     }
 
     &__icon-box {}
