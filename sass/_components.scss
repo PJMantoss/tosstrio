@@ -1,7 +1,7 @@
 // LOGO
 .logo{
     height: 2rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 // Search 
@@ -91,14 +91,14 @@
 
     &__notification {
         font-size: .8rem;
-        height: 1.75rem;
-        width: 1.75rem;
+        height: 1.6rem;
+        width: 1.6rem;
         border-radius: 50%;
         background: var(--color-primary);
         color: #fff;
         position: absolute;
-        top: 1.7rem;
-        left: 1.5rem;
+        top: 1.1rem;
+        left: 1.6rem;
 
         display: flex;
         justify-content: center;
