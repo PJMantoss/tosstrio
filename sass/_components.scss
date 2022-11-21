@@ -62,7 +62,6 @@
 
 // User Navigation
 .user-nav {
-    background: greenyellow;
     align-self: stretch;
 
     display: flex;
@@ -98,7 +97,8 @@
         background: var(--color-primary);
         color: #fff;
         position: absolute;
-        
+        top: 1.7rem;
+        left: 1.5rem;
 
         display: flex;
         justify-content: center;
