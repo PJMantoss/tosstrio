@@ -127,6 +127,9 @@
         text-transform: uppercase;
         display: block;
         padding: .5rem 1rem;
+
+        display: flex;
+        align-items: center;
     }
 
     &__link:hover {
@@ -136,7 +139,7 @@
     &__icon {
         height: 1.75rem;
         width: 1.75rem;
-        margin-right: 1rem;
+        margin-right: 2rem;
         fill: currentColor;
     }
 }
