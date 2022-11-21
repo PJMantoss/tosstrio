@@ -120,10 +120,13 @@
         margin-top: 3.5rem;
     }
 
+    &__link:link,
     &__link:visited {
         color: var(--color-grey-light-1);
         text-decoration: none;
         text-transform: uppercase;
+        display: block;
+        padding: 1.5rem 3rem;
     }
 
     &__icon {
