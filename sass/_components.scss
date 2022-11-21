@@ -122,6 +122,11 @@
         position: relative;
     }
 
+    &__item::before{
+        content: "";
+        
+    }
+
     &__link:link,
     &__link:visited {
         color: var(--color-grey-light-1);
