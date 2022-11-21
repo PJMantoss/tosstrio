@@ -114,7 +114,11 @@
 
 // Side Navigation
 .side-nav{
-    &__item {}
+    &__item {
+        font-size: 1.4rem;
+        list-style: none;
+        margin-top: 3.5rem;
+    }
 
     &__link {}
 
