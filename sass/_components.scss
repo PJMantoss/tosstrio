@@ -81,7 +81,7 @@
     }
 
     &__icon-box {
-        
+        position: relative;
     }
 
     &__icon {
@@ -97,6 +97,9 @@
         border-radius: 50%;
         background: var(--color-primary);
         color: #fff;
+        position: absolute;
+        
+
         display: flex;
         justify-content: center;
         align-items: center;
