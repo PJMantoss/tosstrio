@@ -150,6 +150,8 @@
         text-transform: uppercase;
         display: block;
         padding: .5rem 1rem;
+        position: relative;
+        z-index: 10;
 
         display: flex;
         align-items: center;
