@@ -135,7 +135,7 @@
         width: 3px;
         background: var(--color-primary);
         transform: scaleY(0);
-        transition: transform 1s, width .4s;
+        transition: transform .2s, width .4s ease-in-out .2s;
     }
 
     &__item:hover::before{
