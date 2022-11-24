@@ -237,6 +237,18 @@
 
     &:hover{
         color: var(--color-grey-dark-1);
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
+
+    &:focus{
+        outline: none;
+    }
+}
+
+@keyframes pulsating {
+    0% {}
+
+    50%{}
+
+    100%{}
 }
