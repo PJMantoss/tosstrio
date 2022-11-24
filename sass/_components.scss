@@ -229,12 +229,13 @@
     &__rating{
         background: var(--color-primary);
         color: white;
-        margin-left: 1.5rem;
+        margin-left: 2rem;
+        padding: 0 2rem;
         align-self: stretch;
     }
 
     &__rating-average{
-        font-size: 2.1rem;
+        font-size: 2.5rem;
         font-weight: 300;
     }
 
