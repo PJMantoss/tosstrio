@@ -201,6 +201,7 @@
         font-weight: 300;
         padding: 1rem 2.5rem;
         letter-spacing: 1px;
+        text-transform: uppercase;
     }
 
     &__stars{
@@ -242,6 +243,7 @@
 
     &:focus{
         outline: none;
+        animation: pulsating 1s ease infinite;
     }
 }
 
