@@ -34,3 +34,16 @@
     flex: 1;
     height: 50rem;
 }
+
+.details {
+    display: flex;
+}
+
+.description{
+    background: orangered;
+    flex: 0 0 60%;
+}
+
+.user-reviews{
+    background: yellowgreen;
+}
