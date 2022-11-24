@@ -193,10 +193,12 @@
 // Overview
 .overview{
     display: flex;
-    
+
     &__heading{}
 
-    &__stars{}
+    &__stars{
+        margin-right: auto;
+    }
 
     &__icon-star,
     &__icon-location{
