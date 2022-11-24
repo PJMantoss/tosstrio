@@ -226,7 +226,12 @@
         margin-right: .5rem;
     }
 
-    &__rating{}
+    &__rating{
+        background: var(--color-primary);
+        color: white;
+        margin-left: 1.5rem;
+        align-self: stretch;
+    }
 
     &__rating-average{}
 
