@@ -246,9 +246,15 @@
 }
 
 @keyframes pulsating {
-    0% {}
+    0% {
+        transform: scale(1);
+        box-shadow: none;
+    }
 
     50%{}
 
-    100%{}
+    100%{
+        transform: scale(1);
+        box-shadow: none;
+    }
 }
