@@ -223,3 +223,10 @@
 
     &__rating-count{}
 }
+
+.btn-inline{
+    border: 0;
+    color: var(--color-primary);
+    font-size: inherit;
+    border-bottom: 1px solid currentColor;
+}
