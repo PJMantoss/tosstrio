@@ -37,11 +37,13 @@
 
 .details {
     display: flex;
+    padding: 4.5rem;
 }
 
 .description{
     background: orangered;
     flex: 0 0 60%;
+    margin-right: 4.5rem;
 }
 
 .user-reviews{
