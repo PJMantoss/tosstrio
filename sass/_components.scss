@@ -309,6 +309,14 @@
         flex: 0 0 50%;
         margin-bottom: .2rem;
     }
+
+    &__item::before{
+        content: "";
+        display: inline-block;
+        width: 2rem;
+        height: 2rem;
+        background-image: url("../img/chevron-thin-right.svg");
+    }
 }
 
 
