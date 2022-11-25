@@ -335,4 +335,16 @@
 .recommend {
     font-size: 1.2rem;
     color: var(--color-grey-light-3);
+
+    display: flex;
+
+    &____count{}
+
+    &__friends{}
+
+    &__photo{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+    }
 }
