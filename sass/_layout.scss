@@ -43,9 +43,11 @@
 }
 
 .description{
-    background: orangered;
+    background: #fff;
     flex: 0 0 60%;
     margin-right: 4.5rem;
+    padding: 3rem;
+    box-shadow: var(--shadow-light);
 }
 
 .user-reviews{
