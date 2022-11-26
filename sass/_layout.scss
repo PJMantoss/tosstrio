@@ -36,17 +36,17 @@
 
 .details {
     display: flex;
-    padding: 3rem;
+    padding: 2rem;
     background: var(--color-grey-light-1);
     border-bottom: var(--line);
 }
 
 .description{
-    font-size: 1.1rem;
+    font-size: 1rem;
     background: #fff;
     flex: 0 0 60%;
     margin-right: 3rem;
-    padding: 3rem;
+    padding: 2rem;
     box-shadow: var(--shadow-light);
 }
 
