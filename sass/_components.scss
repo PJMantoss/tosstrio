@@ -404,8 +404,7 @@
     &__text::before{
         content: "\201C";
         font-size: 10rem;
-        // color: var(--color-grey-light-2);
-        color: black;
+        color: var(--color-grey-light-2);
         position: absolute;
         top: -2.1rem;
         left: -1rem;
