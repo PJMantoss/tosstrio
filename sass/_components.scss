@@ -363,7 +363,10 @@
     padding: 1rem;
     margin-bottom: 1.5rem;
 
-    &__text{}
+    &__text{
+        position: relative;
+        z-index: 10;
+    }
 
     &__user{
         display: flex;
@@ -398,14 +401,16 @@
         color: var(--color-primary-dark);
     }
 
-    &::before{
+    &__text::before{
         content: "\201C";
         font-size: 10rem;
-        color: var(--color-grey-light-2);
+        // color: var(--color-grey-light-2);
+        color: black;
         position: absolute;
-        top: -2.8rem;
-        left: -1rem;
+        top: 1rem;
+        // left: 0;
         font-family: sans-serif;
         line-height: 1;
+        z-index: 1;
     }
 }
