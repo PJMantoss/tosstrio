@@ -431,5 +431,8 @@
     text-align: center;
     padding: 3.5rem 0;
 
-    &__book-now{}
+    &__book-now{
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
 }
