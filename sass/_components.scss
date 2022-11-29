@@ -425,3 +425,11 @@
         z-index: 1;
     }
 }
+
+// Call To Action
+.cta {
+    text-align: center;
+    padding: 3.5rem 0;
+
+    &__book-now{}
+}
