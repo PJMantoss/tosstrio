@@ -17,17 +17,16 @@
 }
 
 // VARIABLES FOR RESPONSIVENESS
-$breaking-point-xl: 75em; //1200px
-$breaking-point-l: 68.75em; //1100px
+$breaking-point-xl: 1200px; // 75em
+$breaking-point-l: 1100px; // 68.75em
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-size: var(--font-size);
 
     @media only screen and (max-width: $breaking-point-l){
-        font-size: 50%;
+        // font-size: 50%;
     }
 }
 
