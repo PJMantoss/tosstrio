@@ -331,8 +331,8 @@
     flex-wrap: wrap;
 
     list-style: none;
-    margin: 3rem 0;
-    padding: 3rem 0;
+    margin: 2rem 0;
+    padding: 1.5rem 0;
     border-top: var(--line);
     border-bottom: var(--line);
 
@@ -374,6 +374,10 @@
         margin-right: auto;
     }
 
+    &__friends{
+        display: flex;
+    }
+
     &__photo{
         box-sizing: content-box;
         width: 3rem;
@@ -382,7 +386,7 @@
         border: 3px solid #fff;
 
         &:not(:last-child){
-            margin-right: -1.5rem;
+            margin-right: -1rem;
         }
     }
 }
@@ -458,7 +462,7 @@
     padding: 3.5rem 0;
 
     @media only screen and (max-width: $breaking-point-m){
-        padding: 2rem;
+        padding: 2rem 0;
     }
 
     &__book-now{
