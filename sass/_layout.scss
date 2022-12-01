@@ -54,6 +54,10 @@
     @media only screen and (max-width: $breaking-point-m){
         padding: .5rem;
     }
+
+    @media only screen and (max-width: $breaking-point-s){
+        flex-direction: column;
+    }
 }
 
 .description{
