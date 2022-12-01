@@ -50,6 +50,10 @@
     background: var(--color-grey-light-1);
     border-bottom: var(--line);
     font-size: .9rem;
+
+    @media only screen and (max-width: $breaking-point-m){
+        padding: 1rem;
+    }
 }
 
 .description{
@@ -59,6 +63,11 @@
     margin-right: 3rem;
     padding: 2rem;
     box-shadow: var(--shadow-light);
+
+    @media only screen and (max-width: $breaking-point-m){
+        padding: 1rem;
+        margin-right: 1rem;
+    }
 }
 
 .user-reviews{
