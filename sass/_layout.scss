@@ -4,6 +4,10 @@
     background: var(--color-grey-light-1);
     box-shadow: var(--shadow-dark);
     min-height: 30rem;
+
+    @media only screen and (max-width: $breaking-point-xl){
+        margin: 0;
+    }
 }
 
 .header {
