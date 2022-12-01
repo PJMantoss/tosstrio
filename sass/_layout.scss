@@ -72,6 +72,10 @@
         padding: 1rem;
         margin-right: 1rem;
     }
+
+    @media only screen and (max-width: $breaking-point-s){
+        margin: 0 0 2rem 0;
+    }
 }
 
 .user-reviews{
