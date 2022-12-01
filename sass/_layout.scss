@@ -24,6 +24,10 @@
 
 .content {
     display: flex;
+
+    @media only screen and (max-width: $breaking-point-m){
+        flex-direction: column;
+    }
 }
 
 .sidebar {

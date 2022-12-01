@@ -375,6 +375,11 @@
     position: relative;
     overflow: hidden;
 
+    @media only screen and (max-width: $breaking-point-m){
+        padding: 2rem;
+        margin-bottom: .75rem;
+    }
+
     &__text{
         position: relative;
         z-index: 10;
@@ -430,6 +435,10 @@
 .cta {
     text-align: center;
     padding: 3.5rem 0;
+
+    @media only screen and (max-width: $breaking-point-m){
+        padding: 2rem;
+    }
 
     &__book-now{
         font-size: 2rem;
