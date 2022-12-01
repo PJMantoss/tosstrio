@@ -134,6 +134,10 @@
                 margin: 0;
             }
         }
+
+        @media only screen and (max-width: $breaking-point-m){
+            flex: 1;
+        }
     }
 
     &__item::before{
@@ -172,6 +176,10 @@
 
         display: flex;
         align-items: center;
+
+        @media only screen and (max-width: $breaking-point-m){
+            justify-content: center;
+        }
     }
 
     &__icon {
@@ -188,6 +196,10 @@
     color: var(--color-grey-light-4);
     text-align: center;
     padding: 1.2rem;
+
+    @media only screen and (max-width: $breaking-point-m){
+        display: none;
+    }
 }
 
 // Gallery
