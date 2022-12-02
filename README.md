@@ -1,1 +1,3 @@
-# Tritoss is an Advanced SASS Project
+# Tritoss - A Hotel Booking Landing Page.
+## Originally designed by @jonasschemedt
+### It's an Advanced SASS Project
