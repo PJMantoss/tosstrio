@@ -175,7 +175,6 @@
         color: var(--color-grey-light-1);
         text-decoration: none;
         text-transform: uppercase;
-        display: block;
         padding: .5rem 1rem;
         position: relative;
         z-index: 10;
@@ -185,6 +184,10 @@
 
         @media only screen and (max-width: $breaking-point-m){
             justify-content: center;
+        }
+
+        @media only screen and (max-width: $breaking-point-xs){
+            flex-direction: column;
         }
     }
 
