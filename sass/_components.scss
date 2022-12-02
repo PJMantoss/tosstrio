@@ -234,7 +234,7 @@
 }
 
 // Overview
-.overview{
+.overview {
     display: flex;
     align-items: center;
     border-bottom: var(--line);
@@ -245,6 +245,11 @@
         padding: 1rem 2.5rem;
         letter-spacing: 1px;
         text-transform: uppercase;
+
+        @media only screen and (max-width: $breaking-point-s){
+            font-size: .9rem;
+            padding: .5rem 1.25rem;
+        }
     }
 
     &__stars{
@@ -280,17 +285,30 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        @media only screen and (max-width: $breaking-point-s){
+            padding: 0 .9rem;
+        }
     }
 
     &__rating-average{
         font-size: 2.5rem;
         font-weight: 300;
         margin-bottom: -10px;
+
+        @media only screen and (max-width: $breaking-point-s){
+            font-size: 1.25rem;
+            margin: 0;
+        }
     }
 
     &__rating-count{
         font-size: .8rem;
         text-transform: uppercase;
+
+        @media only screen and (max-width: $breaking-point-s){
+            font-size: .6rem;
+        }
     }
 }
 
