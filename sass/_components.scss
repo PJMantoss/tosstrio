@@ -259,6 +259,10 @@
             font-size: .8rem;
             padding: .5rem 1.25rem;
         }
+
+        @media only screen and (max-width: $breaking-point-s){
+            flex-direction: column;
+        }
     }
 
     &__stars{
