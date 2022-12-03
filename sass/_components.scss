@@ -243,6 +243,11 @@
     align-items: center;
     border-bottom: var(--line);
 
+    @media only screen and (max-width: $breaking-point-xxs){
+        flex-direction: column;
+        justify-content: center;
+    }
+
     &__heading{
         font-size: 2rem;
         font-weight: 300;
@@ -258,10 +263,6 @@
         @media only screen and (max-width: $breaking-point-s){
             font-size: .8rem;
             padding: .5rem 1.25rem;
-        }
-
-        @media only screen and (max-width: $breaking-point-s){
-            flex-direction: column;
         }
     }
 
