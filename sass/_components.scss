@@ -188,7 +188,7 @@
 
         @media only screen and (max-width: $breaking-point-m){
             justify-content: center;
-            padding: 2rem;
+            padding: .5rem 0;
         }
 
         @media only screen and (max-width: $breaking-point-s){
@@ -482,6 +482,10 @@
         font-size: .9rem;
         font-weight: 700;
         text-transform: uppercase;
+
+        @media only screen and (max-width: $breaking-point-m){
+            font-size: .7rem;
+        }
     }
 
     &__user-date{
