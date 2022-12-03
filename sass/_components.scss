@@ -245,7 +245,6 @@
 
     @media only screen and (max-width: $breaking-point-xxs){
         flex-direction: column;
-        justify-content: center;
     }
 
     &__heading{
@@ -269,6 +268,10 @@
     &__stars{
         margin-right: auto;
         display: flex;
+
+        @media only screen and (max-width: $breaking-point-xxs){
+            margin: 0;
+        }
     }
 
     &__icon-star,
@@ -282,6 +285,10 @@
         display: flex;
         align-items: center;
         font-size: .8rem;
+
+        @media only screen and (max-width: $breaking-point-xxs){
+            margin: .5rem 0;
+        }
     }
 
     &__icon-location{
