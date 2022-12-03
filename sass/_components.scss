@@ -231,6 +231,10 @@
 .gallery {
     display: flex;
 
+    @media only screen and (max-width: $breaking-point-xxs){
+        flex-direction: column;
+    }
+
     &__photo {
         display: block;
         width: 100%;
@@ -313,6 +317,12 @@
 
         @media only screen and (max-width: $breaking-point-s){
             padding: 0 .8rem;
+        }
+
+        @media only screen and (max-width: $breaking-point-xxs){
+            margin: 0;
+            padding: 0.4rem .8rem;
+            align-self: center;
         }
     }
 
