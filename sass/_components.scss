@@ -601,6 +601,10 @@
         width: 100%;
         top: -100%;
         left: 0;
+
+        @media only screen and (max-width: $breaking-point-xxs){
+            padding: 1.5rem 0;
+        }
     }
 
     &:hover {
