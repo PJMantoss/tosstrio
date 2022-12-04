@@ -450,6 +450,10 @@
 
     display: flex;
     align-items: center;
+    
+    @media only screen and (max-width: $breaking-point-xxs){
+        flex-direction: column;
+    }
 
     &__count{
         margin-right: auto;
@@ -555,6 +559,10 @@
         font-weight: 300;
         text-transform: uppercase;
         margin-bottom: 1.5rem;
+
+        @media only screen and (max-width: $breaking-point-xxs){
+            font-size: 1rem;
+        }
     }
 }
 
