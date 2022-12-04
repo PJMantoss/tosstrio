@@ -124,6 +124,10 @@
         height: 2.5rem;
         border-radius: 50%;
         margin-right: .9rem;
+
+        @media only screen and (max-width: $breaking-point-xxs){
+            height: 2rem;
+        }
     }
 }
 
