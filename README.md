@@ -5,5 +5,6 @@
 #### Tech Used
 - HTML5
 - SASS
+- CSS Animation
 
 ##### Date: 15 Nov, 22.
